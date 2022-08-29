@@ -1,0 +1,67 @@
+
+<html>
+    <head>
+<title>unknowN's calculator</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+
+   <body>
+
+    <h1>
+    Calculator
+    </h1>
+    <h2>
+
+    Jack Kilby
+      <br>
+      <br>
+      Edith Clarke
+</h2>
+    </h2>
+
+      </div>
+   </body> 
+
+    <form name="f1" class="calci" action="index.html" method="POST">
+<input type="text" name="cevap" id="display">
+<br></br>
+
+
+<input type="button" value="c" onclick="f1.cevap.value=''" class="button">
+
+<input type="button"  class= "button"value="<" onclick="f1.cevap.value=f1.cevap.value.substring(0,f1.cevap.value.length*1-1)" >
+<input type="button"  class= "button"value="00" onclick="f1.cevap.value+='00'">
+
+<input type="button"  class= "operator"value="/" onclick="f1.cevap.value+='/'">
+<br></br>
+<input type="button" class= "button" value="7" onclick="f1.cevap.value+='7'">
+<input type="button"  class= "button"value="8" onclick="f1.cevap.value+='8'">
+<input type="button"  class= "button"value="9" onclick="f1.cevap.value+='9'">
+
+<input type="button"  class= "operator"value="*" onclick="f1.cevap.value+='*'">
+<br></br>
+
+
+<input type="button" class= "button" value="4" onclick="f1.cevap.value+='4'">
+<input type="button"  class= "button"value="5" onclick="f1.cevap.value+='5'">
+
+<input type="button"  class= "button"value="6" onclick="f1.cevap.value+='6'">
+
+<input type="button"  class= "operator"value="-" onclick="f1.cevap.value+='-'">
+<br></br>
+<input type="button"  class= "button"value="1" onclick="f1.cevap.value+='1'">
+<input type="button"  class= "button"value="2" onclick="f1.cevap.value+='2'">
+
+<input type="button"  class= "button"value="3" onclick="f1.cevap.value+='3'">
+
+<input type="button"  class= "operator"value="+" onclick="f1.cevap.value+='+'">
+<br></br>
+
+<input type="button" class= "button" value="0" onclick="f1.cevap.value+='0'" id="zero">
+
+<input type="button" class= "button" value="." onclick="f1.cevap.value+='.'">
+
+<input type="button"  class= "operator" value="=" onclick="f1.cevap.value=eval(f1.cevap.value)">
+ </form>
+
+</html>
